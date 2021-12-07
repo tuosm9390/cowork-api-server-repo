@@ -1,7 +1,7 @@
-GET http://localhost:3000/api/members
+GET https://cowork-api-app-tuosm9390.herokuapp.com/api/members
 
 ### //request를 구분하기 위해 표시
-POST http://localhost:3000/api/members
+POST https://cowork-api-app-tuosm9390.herokuapp.com/api/members
 Content-Type: application/json
 
 {
@@ -16,9 +16,10 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:3000/api/members/100
+PUT https://cowork-api-app-tuosm9390.herokuapp.com/api/members/100
 Content-Type: application/json
 
+{ "name": "David" }
 
 ###
-DELETE http://localhost:3000/api/members/3
+DELETE https://cowork-api-app-tuosm9390.herokuapp.com/api/members/15
